@@ -27,7 +27,7 @@ const Navbar = () => {
           </a>
         </div>
         <motion.button 
-          onClick={() => navigate("/LoginPage")}
+          onClick={() => navigate("/login")}
           whileHover={{ scale: 1.1 }}
           className="bg-green-500 text-white px-2 py-2 rounded-md hover:bg-blue-500 transition"
         >
